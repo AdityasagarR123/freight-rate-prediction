@@ -1,0 +1,22 @@
+{
+  "model": "hybrid_gbm_time_terms",
+  "features": [
+    "log_distance",
+    "log_weight",
+    "equipment_code",
+    "pickup_lat",
+    "pickup_lon",
+    "delivery_lat",
+    "delivery_lon",
+    "log_market_index",
+    "log_quote_signal",
+    "day_of_week"
+  ],
+  "time_coefficients": {
+    "trend_per_year": 0.06805,
+    "quarter_end_ramp": 0.0354
+  },
+  "train_rows_used": 47323,
+  "label_outliers_removed": 677,
+  "holdout_log_bias": -0.002630636076156178
+}

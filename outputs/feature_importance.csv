@@ -1,0 +1,11 @@
+,gain
+log_distance,0.8064
+pickup_lon,0.0676
+delivery_lon,0.053
+log_quote_signal,0.022
+equipment_code,0.0191
+pickup_lat,0.0113
+delivery_lat,0.0103
+log_weight,0.0052
+log_market_index,0.0051
+day_of_week,0.0001
